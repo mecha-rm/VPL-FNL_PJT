@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TitleManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Title
+      Manager","summary":"Used to manage title screen operations.","pan":{"x":5.321442,"y":283.9253},"zoom":0.65,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"3d80f8cc-061d-47ae-8264-413eafca0ffe","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"5528b7ee-fd5f-461b-8713-7d811e706c2e","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"name":{"$content":"StartCourseA","$type":"System.String"}},"position":{"x":-201.0,"y":371.0},"guid":"ed129ac9-fe00-41b4-a60b-cee46decc618","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"13"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"GameSceneA","$type":"System.String"}},"position":{"x":138.0,"y":374.0},"guid":"1630a0ce-7966-489b-8844-0969aa30a048","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"coroutine":false,"defaultValues":{"name":{"$content":"StartCourseB","$type":"System.String"}},"position":{"x":-206.0,"y":492.0},"guid":"abd4a27a-b639-4565-bee7-1106f7a2e8b8","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"18"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"GameSceneB","$type":"System.String"}},"position":{"x":138.0,"y":493.0},"guid":"cfc43e92-4827-4322-859d-5f47a1e812f1","$version":"A","$type":"Bolt.InvokeMember","$id":"20"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"51a16613-0140-4f1a-a2cc-2a1c638c65dc","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"affcb108-2d53-4eae-9a99-34ed60251897","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
