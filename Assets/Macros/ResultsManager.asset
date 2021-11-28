@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ResultsManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Results
+      Manager","summary":"Used to manage the results screen.","pan":{"x":28.75,"y":208.75},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"8694db03-2e1f-4657-8d5d-0c587f8d3a5b","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"72dad69f-39ef-4246-824d-45e61bda0ba6","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"name":{"$content":"ReturnToTitle","$type":"System.String"}},"position":{"x":-204.0,"y":230.0},"guid":"fe575aab-ec68-4c0c-9b67-138d16baa765","$version":"A","$type":"Bolt.BoltUnityEvent","$id":"13"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"TitleScene","$type":"System.String"}},"position":{"x":134.0,"y":233.0},"guid":"922f9ef1-24af-4150-9464-554d30c2932f","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"87d7c051-68dc-4a37-8b4d-85d33df974e5","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []

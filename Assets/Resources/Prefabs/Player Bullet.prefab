@@ -1,5 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &6935900038818406166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5272549803799044408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1001 &4344552046048479318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7,10 +22,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8423838853872153972, guid: d6bea5d58e601a74585b06354561ca54,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"lifeTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"lifeTimeMax","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"force","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"maxSpeed","value":{"$content":50.0,"$type":"System.Single"},"$version":"A"},{"name":"ageless","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"startAtMaxSpeed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"power","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"hitForce","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 8458093311399684460, guid: d6bea5d58e601a74585b06354561ca54,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458093311399684460, guid: d6bea5d58e601a74585b06354561ca54,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458093311399684460, guid: d6bea5d58e601a74585b06354561ca54,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8458093311399684460, guid: d6bea5d58e601a74585b06354561ca54,
         type: 3}
@@ -34,3 +64,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6bea5d58e601a74585b06354561ca54, type: 3}
+--- !u!1 &5272549803799044408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8458093311399684462, guid: d6bea5d58e601a74585b06354561ca54,
+    type: 3}
+  m_PrefabInstance: {fileID: 4344552046048479318}
+  m_PrefabAsset: {fileID: 0}
