@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8458093310430992275}
   - component: {fileID: 8458093310430992272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,9 +94,9 @@ GameObject:
   - component: {fileID: 8458093311399684463}
   - component: {fileID: 8423838853872153972}
   - component: {fileID: 2086776026113265310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"lifeTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"lifeTimeMax","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"force","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"maxSpeed","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"ageless","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"startAtMaxSpeed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"lifeTime","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"lifeTimeMax","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"force","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"maxSpeed","value":{"$content":15.0,"$type":"System.Single"},"$version":"A"},{"name":"ageless","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"startAtMaxSpeed","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"power","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &2086776026113265310
 MonoBehaviour:

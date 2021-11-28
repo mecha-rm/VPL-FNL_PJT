@@ -30,7 +30,7 @@ PrefabInstance:
     - target: {fileID: 8458093311399684462, guid: d6bea5d58e601a74585b06354561ca54,
         type: 3}
       propertyPath: m_Name
-      value: Bullet Variant
+      value: Player Bullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6bea5d58e601a74585b06354561ca54, type: 3}
