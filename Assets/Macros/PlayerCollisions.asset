@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlayerCollisions
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Player
+      Collisions","summary":"Deals with player collisions.","pan":{"x":488.2881,"y":409.6507},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"a5b883dc-1569-4c8b-8046-776636b5be8c","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"ddd0dd74-6097-4170-a789-41bbb3e234c3","$version":"A","$type":"Bolt.Update"},{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Hit","$type":"System.String"}},"position":{"x":-12.0,"y":295.0},"guid":"120409f3-ccf6-4a81-a821-88c7341ff2a3","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"health","$type":"System.String"},"object":null},"position":{"x":336.0,"y":369.0},"guid":"aa072085-3a9f-4c8d-8478-3ae3058ce650","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"kind":"Object","defaultValues":{"name":{"$content":"health","$type":"System.String"},"object":null},"position":{"x":777.0,"y":300.0},"guid":"3181e330-3f78-41a1-9635-b62333fe8e08","$version":"A","$type":"Bolt.SetVariable","$id":"17"},{"defaultValues":{},"position":{"x":538.0,"y":493.0},"guid":"056da0a1-7d2e-4411-8881-bcc3b3aa3d8c","$version":"A","$type":"Bolt.GenericSubtract","$id":"19"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"c3d3bf7a-f596-407e-a8b5-48531971c418","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"minuend","guid":"dc88d68c-7537-49de-b832-3cf0cfae3806","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_1","destinationUnit":{"$ref":"19"},"destinationKey":"subtrahend","guid":"3a3332bf-b6a5-43d0-ab23-2764b0e5d97d","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"difference","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"99cc84ef-1aa2-4ed2-a961-838ea27f255e","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
