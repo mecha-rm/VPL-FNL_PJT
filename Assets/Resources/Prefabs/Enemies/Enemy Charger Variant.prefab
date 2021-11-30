@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4496536747614071283, guid: 09d03586a2e4b6840a58897f76238a86,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"health","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"maxHealth","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"facePlayer","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"moveTowardsPlayer","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"attackPower","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"destroyAsteroids","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 4496536747614071285, guid: 09d03586a2e4b6840a58897f76238a86,
         type: 3}
       propertyPath: m_Size.x
