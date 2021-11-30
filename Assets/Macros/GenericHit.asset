@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: GenericHit
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Hit","summary":"The
+      generic hit function.","pan":{"x":20.90369,"y":-92.57282},"zoom":0.7500001,"elements":[{"kind":"Object","defaultValues":{"name":{"$content":"health","$type":"System.String"},"object":null},"position":{"x":570.0,"y":-131.0},"guid":"738cd291-b6d8-491c-8a1f-e7bbab7a9519","$version":"A","$type":"Bolt.SetVariable","$id":"9"},{"defaultValues":{},"position":{"x":120.0,"y":-26.0},"guid":"ee29b558-5997-495e-b68d-a5852230ce4a","$version":"A","$type":"Bolt.GenericSubtract","$id":"11"},{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Hit","$type":"System.String"}},"position":{"x":-472.0,"y":-116.0},"guid":"2eb90d68-7842-4b20-b599-4009da39f054","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"maxHealth","$type":"System.String"},"object":null},"position":{"x":-76.0,"y":-58.0},"guid":"f8422785-766f-4d77-b708-4307ec14bf0c","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"assign","guid":"1b1c3f62-d3db-4d16-a9ba-781de142cc52","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"difference","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"22339c27-972c-4030-8488-c08becefe3eb","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"minuend","guid":"3bd0e96f-9931-4c47-bbd0-070d90cda39e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_1","destinationUnit":{"$ref":"11"},"destinationKey":"subtrahend","guid":"c75d7d28-7ab8-48d0-877a-5988e2fdf8e1","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

@@ -8,6 +8,7 @@ TagManager:
   - Bullet
   - Stage
   - Goal
+  - Enemy
   layers:
   - Default
   - TransparentFX

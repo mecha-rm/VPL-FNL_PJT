@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 5944712422709376433}
   - component: {fileID: 5944712422709376397}
   - component: {fileID: 5944712422709376398}
+  - component: {fileID: 454044083605405628}
   m_Layer: 0
   m_Name: Asteroid Base
   m_TagString: Asteroid
@@ -204,3 +205,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: e822882ce31eb534c926cf6f73770e60, type: 2}
+--- !u!114 &454044083605405628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944712422709376434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7964d133f17495b429ceab798203596e, type: 2}
