@@ -9,6 +9,7 @@ TagManager:
   - Stage
   - Goal
   - Enemy
+  - Manager
   layers:
   - Default
   - TransparentFX
