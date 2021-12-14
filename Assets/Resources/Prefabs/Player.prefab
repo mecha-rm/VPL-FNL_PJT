@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"health","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"maxHealth","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarSlider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"moveSpeed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"rotSpeed","value":{"$content":-256.0,"$type":"System.Single"},"$version":"A"},{"name":"maxSpeed","value":{"$content":25.0,"$type":"System.Single"},"$version":"A"},{"name":"bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"health","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"maxHealth","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"healthBarSlider","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"moveSpeed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"rotSpeed","value":{"$content":-256.0,"$type":"System.Single"},"$version":"A"},{"name":"maxSpeed","value":{"$content":25.0,"$type":"System.Single"},"$version":"A"},{"name":"bullet","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 5272549803799044408, guid: e2c9a7945d318b6439ce38850ca4ebb7, type: 3}
