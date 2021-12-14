@@ -10,6 +10,7 @@ TagManager:
   - Goal
   - Enemy
   - Manager
+  - Item
   layers:
   - Default
   - TransparentFX
